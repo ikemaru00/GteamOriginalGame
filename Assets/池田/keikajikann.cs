@@ -2,6 +2,29 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
+public class TimerScript : MonoBehaviour
+{
+	float elapsedTime;
+	bool counter_flag = false;
+
+	
+
+	void Update()
+	{
+		//Spaceキーで計測開始、停止を切り替え
+		if (Input.GetKey(KeyCode.Space))
+		{
+			counter_flag = !counter_flag;
+		}
+
+		if (counter_flag == true)
+		{
+			elapsedTime += Time.deltaTime;
+			Debug.Log("計測中： " + (elapsedTime).ToString());
+		}
+	}
+
+}
 public class keikajikann : MonoBehaviour
 {
 
@@ -13,6 +36,8 @@ public class keikajikann : MonoBehaviour
 	private float oldSeconds;
 	//　タイマー表示用テキスト
 	private Text timerText;
+
+	private int _SCORE;
 
 	void Start()
 	{
@@ -34,7 +59,18 @@ public class keikajikann : MonoBehaviour
 		if ((int)seconds != (int)oldSeconds)
 		{
 			timerText.text = minute.ToString("00") + ":" + ((int)seconds).ToString("00");
+			_SCORE = (int)seconds;
 		}
 		oldSeconds = seconds;
 	}
+
+	public int GetSCORE()
+    {
+		
+		return _SCORE;
+	}
+		
+
+
+
 }
