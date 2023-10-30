@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -1.0400085, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &60011997
@@ -378,7 +378,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345801033}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.66, y: -2.4, z: 0}
+  m_LocalPosition: {x: -23.29, y: -2.3, z: 0}
   m_LocalScale: {x: 4.5, y: 4.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -567,7 +567,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e324ecedd37ab374aaf77e7de59ea3dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 1
 --- !u!1 &1105692236
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,8 +788,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1489794045}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.65, y: -2.54, z: 0}
-  m_LocalScale: {x: 2.2212, y: 2.367148, z: 1}
+  m_LocalPosition: {x: 23.42, y: -2.08, z: 0}
+  m_LocalScale: {x: 2.2212, y: 2.65736, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -916,7 +915,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726781803}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0539842, y: -5, z: -0.102270305}
+  m_LocalPosition: {x: 1.0539842, y: -7, z: -0.102270305}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1015,8 +1014,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929238934}
   m_LocalRotation: {x: -0, y: -0, z: 0.0063638585, w: 0.9999798}
-  m_LocalPosition: {x: 0.0062, y: -4.4747, z: 0}
-  m_LocalScale: {x: 101.68641, y: 3.9239693, z: 1}
+  m_LocalPosition: {x: -0.0968, y: -4.512, z: 0}
+  m_LocalScale: {x: 101.27776, y: 4.1028113, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
